@@ -5,7 +5,7 @@ import uvicorn
 
 
 logging.basicConfig(
-    filename='playground_app.log',
+    filename='cortisol_app.log',
     filemode='a',
     format='%(asctime)s %(levelname)s %(message)s',
     level=logging.INFO)
